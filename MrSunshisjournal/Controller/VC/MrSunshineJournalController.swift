@@ -30,9 +30,7 @@ class MrSunshineJournalController: UIViewController {
         
         
         // Configurar la imagen de fondo
-        fondo.image = UIImage(named: "fondoclaro")
-        fondo.contentMode = .scaleAspectFill
-        fondo.clipsToBounds = true
+        fondo.setBackgroundImage()
         
         
         // En caso de hacer delegate

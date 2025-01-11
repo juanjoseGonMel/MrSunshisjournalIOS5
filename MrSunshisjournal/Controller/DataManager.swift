@@ -23,7 +23,7 @@ class DataManager: NSObject {
     // MARK: - Core Data stack
     
     lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "Modelprueba") // Asegúrate de que el nombre aquí coincida con el nombre de tu archivo .xcdatamodeld
+        let container = NSPersistentContainer(name: "JournalModel") // Asegúrate de que el nombre aquí coincida con el nombre de tu archivo .xcdatamodeld
         container.loadPersistentStores { (storeDescription, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")

@@ -24,9 +24,7 @@ class NotificationController: UIViewController {
 
         
         // Configurar la imagen de fondo
-        fondo.image = UIImage(named: "fondoclaro")
-        fondo.contentMode = .scaleAspectFill
-        fondo.clipsToBounds = true
+        fondo.setBackgroundImage()
         
         // Configurar delegados
         activityCalendary.delegate = self

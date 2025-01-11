@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861CA71A2D2639CC00506F15 /* Pethabitat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7122D2639CC00506F15 /* Pethabitat+CoreDataClass.swift */; };
+		861CA71B2D2639CC00506F15 /* Pethabitat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7132D2639CC00506F15 /* Pethabitat+CoreDataProperties.swift */; };
+		861CA71C2D2639CC00506F15 /* Petmascota+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7142D2639CC00506F15 /* Petmascota+CoreDataClass.swift */; };
+		861CA71D2D2639CC00506F15 /* Petmascota+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7152D2639CC00506F15 /* Petmascota+CoreDataProperties.swift */; };
+		861CA71E2D2639CC00506F15 /* Petnotification+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7162D2639CC00506F15 /* Petnotification+CoreDataClass.swift */; };
+		861CA71F2D2639CC00506F15 /* Petnotification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7172D2639CC00506F15 /* Petnotification+CoreDataProperties.swift */; };
+		861CA7202D2639CC00506F15 /* Petactividad+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7182D2639CC00506F15 /* Petactividad+CoreDataClass.swift */; };
+		861CA7212D2639CC00506F15 /* Petactividad+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7192D2639CC00506F15 /* Petactividad+CoreDataProperties.swift */; };
+		861CA7232D26A1DB00506F15 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7222D26A1DB00506F15 /* ImageExtension.swift */; };
+		861CA7252D26A9A400506F15 /* DiarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CA7242D26A9A400506F15 /* DiarioController.swift */; };
 		866C2D462CCB5C760057C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D452CCB5C760057C80E /* AppDelegate.swift */; };
 		866C2D482CCB5C760057C80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D472CCB5C760057C80E /* SceneDelegate.swift */; };
 		866C2D4A2CCB5C760057C80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D492CCB5C760057C80E /* ViewController.swift */; };
@@ -34,10 +44,19 @@
 		86D4CF282D16B0EF00223EFC /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 86D4CF272D16B0EF00223EFC /* FSCalendar */; };
 		86D4D0052D18177100223EFC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D4D0042D18177000223EFC /* CoreData.framework */; };
 		86D4D0562D18214A00223EFC /* JournalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86D4D0542D18214A00223EFC /* JournalModel.xcdatamodeld */; };
-		86D4D0792D1822A900223EFC /* Modelprueba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86D4D0772D1822A900223EFC /* Modelprueba.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861CA7122D2639CC00506F15 /* Pethabitat+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Pethabitat+CoreDataClass.swift"; path = "MrSunshisjournal/Pethabitat+CoreDataClass.swift"; sourceTree = "<group>"; };
+		861CA7132D2639CC00506F15 /* Pethabitat+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Pethabitat+CoreDataProperties.swift"; path = "MrSunshisjournal/Pethabitat+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		861CA7142D2639CC00506F15 /* Petmascota+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petmascota+CoreDataClass.swift"; path = "MrSunshisjournal/Petmascota+CoreDataClass.swift"; sourceTree = "<group>"; };
+		861CA7152D2639CC00506F15 /* Petmascota+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petmascota+CoreDataProperties.swift"; path = "MrSunshisjournal/Petmascota+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		861CA7162D2639CC00506F15 /* Petnotification+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petnotification+CoreDataClass.swift"; path = "MrSunshisjournal/Petnotification+CoreDataClass.swift"; sourceTree = "<group>"; };
+		861CA7172D2639CC00506F15 /* Petnotification+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petnotification+CoreDataProperties.swift"; path = "MrSunshisjournal/Petnotification+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		861CA7182D2639CC00506F15 /* Petactividad+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petactividad+CoreDataClass.swift"; path = "MrSunshisjournal/Petactividad+CoreDataClass.swift"; sourceTree = "<group>"; };
+		861CA7192D2639CC00506F15 /* Petactividad+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Petactividad+CoreDataProperties.swift"; path = "MrSunshisjournal/Petactividad+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		861CA7222D26A1DB00506F15 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		861CA7242D26A9A400506F15 /* DiarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarioController.swift; sourceTree = "<group>"; };
 		866C2D422CCB5C760057C80E /* MrSunshisjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrSunshisjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866C2D452CCB5C760057C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866C2D472CCB5C760057C80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +88,6 @@
 		86D4CF242D168B0C00223EFC /* PetsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewCell.swift; sourceTree = "<group>"; };
 		86D4D0042D18177000223EFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		86D4D0552D18214A00223EFC /* JournalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JournalModel.xcdatamodel; sourceTree = "<group>"; };
-		86D4D0782D1822A900223EFC /* Modelprueba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Modelprueba.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,14 @@
 		866C2D392CCB5C750057C80E = {
 			isa = PBXGroup;
 			children = (
+				861CA7122D2639CC00506F15 /* Pethabitat+CoreDataClass.swift */,
+				861CA7132D2639CC00506F15 /* Pethabitat+CoreDataProperties.swift */,
+				861CA7142D2639CC00506F15 /* Petmascota+CoreDataClass.swift */,
+				861CA7152D2639CC00506F15 /* Petmascota+CoreDataProperties.swift */,
+				861CA7162D2639CC00506F15 /* Petnotification+CoreDataClass.swift */,
+				861CA7172D2639CC00506F15 /* Petnotification+CoreDataProperties.swift */,
+				861CA7182D2639CC00506F15 /* Petactividad+CoreDataClass.swift */,
+				861CA7192D2639CC00506F15 /* Petactividad+CoreDataProperties.swift */,
 				866C2D442CCB5C760057C80E /* MrSunshisjournal */,
 				866C2D432CCB5C760057C80E /* Products */,
 				866C2D5C2CCB5CB50057C80E /* Frameworks */,
@@ -146,7 +172,6 @@
 				866C2D4E2CCB5C760057C80E /* MrSunshisjournal.xcdatamodeld */,
 				86D4CF012D12A15C00223EFC /* ConfigModels.swift */,
 				86D4D0542D18214A00223EFC /* JournalModel.xcdatamodeld */,
-				86D4D0772D1822A900223EFC /* Modelprueba.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +200,7 @@
 				867FD5442D0A98E500F0590C /* ConfigMenuController.swift */,
 				86D4CF1F2D140DE300223EFC /* ConfigControllers */,
 				86D4CF222D15676200223EFC /* MrSunshineJournalController.swift */,
+				861CA7242D26A9A400506F15 /* DiarioController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -191,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				86D4CF192D13D0DD00223EFC /* StringExtension.swift */,
+				861CA7222D26A1DB00506F15 /* ImageExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -292,23 +319,32 @@
 				86D4CF1E2D1402B200223EFC /* ConfigViewCell.swift in Sources */,
 				867FD5452D0A98E500F0590C /* ConfigMenuController.swift in Sources */,
 				8686C0802D016CCC00ADAF1F /* UserConfigController.swift in Sources */,
+				861CA7232D26A1DB00506F15 /* ImageExtension.swift in Sources */,
 				8686C07E2D015E3F00ADAF1F /* NotificationController.swift in Sources */,
 				866C2D502CCB5C760057C80E /* MrSunshisjournal.xcdatamodeld in Sources */,
 				866C2D6B2CCB9FEF0057C80E /* SignUpViewController.swift in Sources */,
 				866C2D6D2CCBB2390057C80E /* CheckboxButton.swift in Sources */,
 				86D4CF212D14119900223EFC /* PerfilController.swift in Sources */,
-				86D4D0792D1822A900223EFC /* Modelprueba.xcdatamodeld in Sources */,
+				861CA71D2D2639CC00506F15 /* Petmascota+CoreDataProperties.swift in Sources */,
 				866C2D652CCB78950057C80E /* DataManager.swift in Sources */,
 				866C2D672CCB9EC10057C80E /* SignInViewController.swift in Sources */,
 				86D4CF1A2D13D0DD00223EFC /* StringExtension.swift in Sources */,
+				861CA71B2D2639CC00506F15 /* Pethabitat+CoreDataProperties.swift in Sources */,
+				861CA71C2D2639CC00506F15 /* Petmascota+CoreDataClass.swift in Sources */,
 				86D4D0562D18214A00223EFC /* JournalModel.xcdatamodeld in Sources */,
+				861CA71F2D2639CC00506F15 /* Petnotification+CoreDataProperties.swift in Sources */,
 				866C2D4A2CCB5C760057C80E /* ViewController.swift in Sources */,
 				86D4CF252D168B0C00223EFC /* PetsViewCell.swift in Sources */,
 				866C2D462CCB5C760057C80E /* AppDelegate.swift in Sources */,
+				861CA71E2D2639CC00506F15 /* Petnotification+CoreDataClass.swift in Sources */,
+				861CA7202D2639CC00506F15 /* Petactividad+CoreDataClass.swift in Sources */,
+				861CA71A2D2639CC00506F15 /* Pethabitat+CoreDataClass.swift in Sources */,
 				866C2D482CCB5C760057C80E /* SceneDelegate.swift in Sources */,
 				86D4CF022D12A15C00223EFC /* ConfigModels.swift in Sources */,
 				86D4CF232D15676200223EFC /* MrSunshineJournalController.swift in Sources */,
+				861CA7212D2639CC00506F15 /* Petactividad+CoreDataProperties.swift in Sources */,
 				866C2D6F2CCBB6850057C80E /* CircularButton.swift in Sources */,
+				861CA7252D26A9A400506F15 /* DiarioController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,16 +623,6 @@
 			);
 			currentVersion = 86D4D0552D18214A00223EFC /* JournalModel.xcdatamodel */;
 			path = JournalModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		86D4D0772D1822A900223EFC /* Modelprueba.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				86D4D0782D1822A900223EFC /* Modelprueba.xcdatamodel */,
-			);
-			currentVersion = 86D4D0782D1822A900223EFC /* Modelprueba.xcdatamodel */;
-			path = Modelprueba.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

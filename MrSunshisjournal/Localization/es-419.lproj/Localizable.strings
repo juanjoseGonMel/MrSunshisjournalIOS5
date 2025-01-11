@@ -13,3 +13,11 @@
 "Notificaciones" = "Notificaciones";
 "Acerca de" = "Acerca de";
 "Cerrar sesion" = "Cerrar sesión";
+
+
+"Nombre" = "Nombre";
+"Apellido" = "Apellido";
+"Correo electrónico" = "Correo electrónico";
+"Teléfono" = "Teléfono";
+"Localización" = "Localización";
+"Guardar" = "Guardar";
