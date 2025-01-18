@@ -1,0 +1,18 @@
+
+import UIKit
+
+class NavHistoryController: UINavigationController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
+    
+
+    /*
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    }
+    */
+
+}

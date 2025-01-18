@@ -1,9 +1,4 @@
-//
-//  ImageExtension.swift
-//  MrSunshisjournal
-//
-//  Created by DISMOV on 02/01/25.
-//
+
 
 import Foundation
 import UIKit

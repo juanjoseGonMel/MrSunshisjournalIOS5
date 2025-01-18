@@ -1,9 +1,4 @@
-//
-//  CircularButton.swift
-//  MrSunshisjournal
-//
-//  Created by DISMOV on 25/10/24.
-//
+
 
 import Foundation
 import UIKit

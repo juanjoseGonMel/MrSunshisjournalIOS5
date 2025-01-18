@@ -1,9 +1,4 @@
-//
-//  ConfigModels.swift
-//  MrSunshisjournal
-//
-//  Created by DISMOV on 18/12/24.
-//
+
 
 import Foundation
 

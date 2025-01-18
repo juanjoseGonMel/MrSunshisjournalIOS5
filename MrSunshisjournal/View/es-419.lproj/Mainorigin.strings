@@ -1,0 +1,96 @@
+
+/* Class = "UIButton"; configuration.title = "Create"; ObjectID = "27V-PB-PgO"; */
+"27V-PB-PgO.configuration.title" = "Create";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "27V-PB-PgO"; */
+"27V-PB-PgO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Apellido"; ObjectID = "3mN-ff-dGi"; */
+"3mN-ff-dGi.text" = "Apellido";
+
+/* Class = "UITextField"; placeholder = "Cesar Sandoval"; ObjectID = "95A-N6-5Xi"; */
+"95A-N6-5Xi.placeholder" = "Cesar Sandoval";
+
+/* Class = "UITextField"; text = "juan"; ObjectID = "95A-N6-5Xi"; */
+"95A-N6-5Xi.text" = "juan";
+
+/* Class = "UILabel"; text = "Permisos de Notificacion"; ObjectID = "D4h-Cg-mky"; */
+"D4h-Cg-mky.text" = "Permisos de Notificacion";
+
+/* Class = "UITextField"; placeholder = "Cesar Sandoval"; ObjectID = "D8b-vr-0K6"; */
+"D8b-vr-0K6.placeholder" = "Cesar Sandoval";
+
+/* Class = "UITextField"; text = "juan"; ObjectID = "D8b-vr-0K6"; */
+"D8b-vr-0K6.text" = "juan";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "EdM-3e-niS"; */
+"EdM-3e-niS.text" = "Nombre";
+
+/* Class = "UITextField"; placeholder = "Enter your E-Mail"; ObjectID = "F48-92-Exx"; */
+"F48-92-Exx.placeholder" = "Enter your E-Mail";
+
+/* Class = "UILabel"; text = "Correo"; ObjectID = "FKx-Mk-vji"; */
+"FKx-Mk-vji.text" = "Correo";
+
+/* Class = "UIButton"; configuration.title = "Remember Me"; ObjectID = "JDT-CK-buy"; */
+"JDT-CK-buy.configuration.title" = "Remember Me";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JDT-CK-buy"; */
+"JDT-CK-buy.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "Jsi-hM-n89"; */
+"Jsi-hM-n89.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jsi-hM-n89"; */
+"Jsi-hM-n89.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Cesar Sandoval"; ObjectID = "KiP-Z3-Unv"; */
+"KiP-Z3-Unv.placeholder" = "Cesar Sandoval";
+
+/* Class = "UITextField"; text = "juan"; ObjectID = "KiP-Z3-Unv"; */
+"KiP-Z3-Unv.text" = "juan";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "MzG-O4-aa5"; */
+"MzG-O4-aa5.title" = "Item";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "Nhb-rp-leb"; */
+"Nhb-rp-leb.text" = "OR";
+
+/* Class = "UITextField"; placeholder = "Enter your Password"; ObjectID = "Nho-x3-8D7"; */
+"Nho-x3-8D7.placeholder" = "Enter your Password";
+
+/* Class = "UIButton"; configuration.title = "Configuraciones"; ObjectID = "Pkm-mI-Q5p"; */
+"Pkm-mI-Q5p.configuration.title" = "Configuraciones";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pkm-mI-Q5p"; */
+"Pkm-mI-Q5p.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter your Password"; ObjectID = "Vtu-2o-cTv"; */
+"Vtu-2o-cTv.placeholder" = "Enter your Password";
+
+/* Class = "UIButton"; configuration.title = "Sign In"; ObjectID = "ZUF-Xg-9wu"; */
+"ZUF-Xg-9wu.configuration.title" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZUF-Xg-9wu"; */
+"ZUF-Xg-9wu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Hay que tener permisos para poder agendar notificaciones y poder compartir tus cuidados."; ObjectID = "bQ5-nz-HF9"; */
+"bQ5-nz-HF9.text" = "Hay que tener permisos para poder agendar notificaciones y poder compartir tus cuidados.";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "dHr-P3-TLu"; */
+"dHr-P3-TLu.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "hed-BX-IJG"; */
+"hed-BX-IJG.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Enter your E-Mail"; ObjectID = "jMJ-TB-jaS"; */
+"jMJ-TB-jaS.placeholder" = "Enter your E-Mail";
+
+/* Class = "UITextField"; placeholder = "Confirm your Password"; ObjectID = "jUf-HZ-hZf"; */
+"jUf-HZ-hZf.placeholder" = "Confirm your Password";
+
+/* Class = "UITextField"; placeholder = "Cesar Sandoval"; ObjectID = "vqs-tb-GAS"; */
+"vqs-tb-GAS.placeholder" = "Cesar Sandoval";
+
+/* Class = "UITextField"; text = "juan"; ObjectID = "vqs-tb-GAS"; */
+"vqs-tb-GAS.text" = "juan";

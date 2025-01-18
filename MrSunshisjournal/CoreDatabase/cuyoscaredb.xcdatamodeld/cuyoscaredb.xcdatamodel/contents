@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24C101" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Actividad" representedClassName="Actividad" syncable="YES" codeGenerationType="class">
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaString" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="observaciones" optional="YES" attributeType="String"/>
+        <relationship name="notificacion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Notificacion"/>
+    </entity>
+    <entity name="Habitat" representedClassName="Habitat" syncable="YES" codeGenerationType="class">
+        <attribute name="capacidad" optional="YES" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Binary"/>
+        <attribute name="isopened" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temperatura" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String"/>
+        <relationship name="mascotas" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Mascota" inverseName="habitat" inverseEntity="Mascota"/>
+    </entity>
+    <entity name="Mascota" representedClassName="Mascota" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="esteril" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="fechaNac" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="genero" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="peso" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="raza" optional="YES" attributeType="String"/>
+        <relationship name="habitat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Habitat" inverseName="mascotas" inverseEntity="Habitat"/>
+    </entity>
+    <entity name="Notificacion" representedClassName="Notificacion" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaString" optional="YES" attributeType="String"/>
+        <attribute name="frecuenciadias" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="horario" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String"/>
+        <relationship name="mascota" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mascota"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES" codeGenerationType="class">
+        <attribute name="apellidos" optional="YES" attributeType="String"/>
+        <attribute name="correo" optional="YES" attributeType="String"/>
+        <attribute name="foto" optional="YES" attributeType="Binary"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="telefono" optional="YES" attributeType="String"/>
+        <attribute name="ubicacion" optional="YES" attributeType="String"/>
+    </entity>
+</model>
