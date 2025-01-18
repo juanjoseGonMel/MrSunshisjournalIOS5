@@ -26,7 +26,7 @@ class HabitatManager {
         try coreDataHelper.saveContext()
         return habitat
     }
-    
+    //otro
     func fetchHabitats() throws -> [Habitat] {
         return try coreDataHelper.fetchEntities(Habitat.self, sortDescriptors: [NSSortDescriptor(key: "id", ascending: false)])
     }
