@@ -17,6 +17,7 @@
 		866C2D652CCB78950057C80E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D642CCB78950057C80E /* DataManager.swift */; };
 		866C2D6D2CCBB2390057C80E /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D6C2CCBB2390057C80E /* CheckboxButton.swift */; };
 		866C2D6F2CCBB6850057C80E /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C2D6E2CCBB6850057C80E /* CircularButton.swift */; };
+		867CCFC92D3B6E8A0069AAFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 867CCFC82D3B6E8A0069AAFF /* README.md */; };
 		86CA9EC02D3B2A7000E4E41B /* NotificacionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA9EBC2D3B2A7000E4E41B /* NotificacionCell.swift */; };
 		86CA9EC12D3B2A7000E4E41B /* MascotaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA9EBD2D3B2A7000E4E41B /* MascotaCell.swift */; };
 		86CA9EC22D3B2A7000E4E41B /* ActividadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA9EBE2D3B2A7000E4E41B /* ActividadCell.swift */; };
@@ -73,6 +74,7 @@
 		866C2D642CCB78950057C80E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		866C2D6C2CCBB2390057C80E /* CheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
 		866C2D6E2CCBB6850057C80E /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		867CCFC82D3B6E8A0069AAFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		86CA9EB82D3B292600E4E41B /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = ../../../../asd/Archivo/Localization/Localizable.stringsdict; sourceTree = "<group>"; };
 		86CA9EBC2D3B2A7000E4E41B /* NotificacionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificacionCell.swift; sourceTree = "<group>"; };
 		86CA9EBD2D3B2A7000E4E41B /* MascotaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MascotaCell.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				866C2D512CCB5C790057C80E /* Assets.xcassets */,
 				86CA9F182D3B2B8300E4E41B /* Colors.xcassets */,
 				866C2D562CCB5C790057C80E /* Info.plist */,
+				867CCFC82D3B6E8A0069AAFF /* README.md */,
 			);
 			path = MrSunshisjournal;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				86CA9EED2D3B2B4F00E4E41B /* Localizable.strings in Resources */,
 				86CA9EFC2D3B2B5900E4E41B /* Main.strings in Resources */,
 				86CA9EEE2D3B2B4F00E4E41B /* LocalizableES.strings in Resources */,
+				867CCFC92D3B6E8A0069AAFF /* README.md in Resources */,
 				86CA9EFB2D3B2B5900E4E41B /* LaunchScreen.strings in Resources */,
 				866C2D522CCB5C790057C80E /* Assets.xcassets in Resources */,
 			);
